@@ -34,7 +34,6 @@ class CustomersRepository implements ICustomersRepository {
         email,
       },
     });
-
     return findCustomer;
   }
 }
